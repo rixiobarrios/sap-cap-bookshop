@@ -1,0 +1,7 @@
+GET http://localhost:4004/catalog/Books
+
+###
+Post http://localhost:4004/catalog/Books
+Content-Type: application/json
+
+{"ID": 10, "title": "This is my new book: Max Streifeneder"}
